@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useTheme } from './ThemeProvider';
+import { withBase } from '../lib/utils';
 
 export function Logo({ className = "h-8" }: { className?: string }) {
   const { theme } = useTheme();

@@ -420,40 +420,18 @@
 
 @keyframes menuCarousel {
   0% {
-    transform: translate(420px, 178px) rotate(38deg) scale(0.68);
-    opacity: 0.28;
-    z-index: 1;
+    transform: translate(440px, -70px);
+    opacity: 0;
   }
-  20% {
-    transform: translate(255px, 83px) rotate(24deg) scale(0.82);
-    opacity: 0.75;
-    z-index: 2;
-  }
-  40% {
-    transform: translate(75px, 22px) rotate(10deg) scale(0.98);
+  15% {
     opacity: 1;
-    z-index: 3;
   }
-  50% {
-    transform: translate(-89px, 0) rotate(0) scale(1.22);
+  85% {
     opacity: 1;
-    z-index: 8;
-    box-shadow: 0 32px 60px #19152e52;
-  }
-  60% {
-    transform: translate(-253px, 22px) rotate(-10deg) scale(0.98);
-    opacity: 1;
-    z-index: 3;
-  }
-  80% {
-    transform: translate(-433px, 83px) rotate(-24deg) scale(0.82);
-    opacity: 0.75;
-    z-index: 2;
   }
   100% {
-    transform: translate(-598px, 178px) rotate(-38deg) scale(0.68);
-    opacity: 0.28;
-    z-index: 1;
+    transform: translate(-440px, 70px);
+    opacity: 0;
   }
 }
 
@@ -1763,21 +1741,20 @@
   .menu-poster {
     animation: none;
   }
-  .poster-three {
-    transform: translate(-89px, 0) scale(1.22);
-    z-index: 8;
-  }
   .poster-one {
-    transform: translate(255px, 83px) rotate(24deg) scale(0.82);
+    transform: translate(440px, -70px);
   }
   .poster-two {
-    transform: translate(75px, 22px) rotate(10deg) scale(0.98);
+    transform: translate(264px, -42px);
+  }
+  .poster-three {
+    transform: translate(88px, -14px);
   }
   .poster-four {
-    transform: translate(-253px, 22px) rotate(-10deg) scale(0.98);
+    transform: translate(-88px, 14px);
   }
   .poster-five {
-    transform: translate(-433px, 83px) rotate(-24deg) scale(0.82);
+    transform: translate(-264px, 42px);
   }
   .btn:hover,
   .plans article:hover {
