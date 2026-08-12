@@ -18,6 +18,7 @@ import { VideoModal } from "../components/VideoModal";
 import { useAuth } from "../context/AuthContext";
 import { usePlans } from "../hooks/useApi";
 import { localizePlans } from "../lib/localizePlan";
+import { withBase } from "../lib/utils";
 import "../styles/landing.css";
 
 const POSTERS = [
@@ -119,7 +120,7 @@ function MenuPoster({
 }) {
   return (
     <article className={`menu-poster ${className}`}>
-      <img src={image} alt={`${name} menu`} loading="lazy" />
+      <img src={withBase(image)} alt={`${name} menu`} loading="lazy" />
       <div className="poster-shade" />
       <div className="poster-copy">
         <span>ASNAFI MENU · 2026</span>
