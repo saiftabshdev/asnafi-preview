@@ -420,18 +420,40 @@
 
 @keyframes menuCarousel {
   0% {
-    transform: translate(440px, -70px);
-    opacity: 0;
+    transform: translate(420px, 0) scale(0.68);
+    opacity: 0.28;
+    z-index: 1;
   }
-  15% {
-    opacity: 1;
+  20% {
+    transform: translate(255px, 0) scale(0.82);
+    opacity: 0.75;
+    z-index: 2;
   }
-  85% {
+  40% {
+    transform: translate(75px, 0) scale(0.98);
     opacity: 1;
+    z-index: 3;
+  }
+  50% {
+    transform: translate(-89px, 0) scale(1.22);
+    opacity: 1;
+    z-index: 8;
+    box-shadow: 0 32px 60px #19152e52;
+  }
+  60% {
+    transform: translate(-253px, 0) scale(0.98);
+    opacity: 1;
+    z-index: 3;
+  }
+  80% {
+    transform: translate(-433px, 0) scale(0.82);
+    opacity: 0.75;
+    z-index: 2;
   }
   100% {
-    transform: translate(-440px, 70px);
-    opacity: 0;
+    transform: translate(-598px, 0) scale(0.68);
+    opacity: 0.28;
+    z-index: 1;
   }
 }
 
@@ -888,6 +910,32 @@
 .plans article:last-child .btn {
   background: #1c2542;
   color: #fff;
+}
+
+.pricing-cta {
+  margin-top: 34px;
+  padding: 28px 32px;
+  border-radius: 20px;
+  border: 1px solid var(--line);
+  background: linear-gradient(135deg, #6139e814 0%, transparent 60%),
+    var(--soft);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.pricing-cta-copy h3 {
+  font-size: 19px;
+  margin: 0 0 4px;
+}
+.pricing-cta-copy p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+.pricing-cta .btn {
+  flex-shrink: 0;
 }
 
 /* ------------------------------ auth ------------------------------ */
@@ -1741,20 +1789,21 @@
   .menu-poster {
     animation: none;
   }
+  .poster-three {
+    transform: translate(-89px, 0) scale(1.22);
+    z-index: 8;
+  }
   .poster-one {
-    transform: translate(440px, -70px);
+    transform: translate(255px, 0) scale(0.82);
   }
   .poster-two {
-    transform: translate(264px, -42px);
-  }
-  .poster-three {
-    transform: translate(88px, -14px);
+    transform: translate(75px, 0) scale(0.98);
   }
   .poster-four {
-    transform: translate(-88px, 14px);
+    transform: translate(-253px, 0) scale(0.98);
   }
   .poster-five {
-    transform: translate(-264px, 42px);
+    transform: translate(-433px, 0) scale(0.82);
   }
   .btn:hover,
   .plans article:hover {

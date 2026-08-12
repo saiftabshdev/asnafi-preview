@@ -368,6 +368,19 @@ export default function LandingPage() {
               </Reveal>
             ))}
         </div>
+
+        <Reveal delay={0.2}>
+          <div className="pricing-cta">
+            <div className="pricing-cta-copy">
+              <h3>{t("lp.pricing.cta.title")}</h3>
+              <p>{t("lp.pricing.cta.tagline")}</p>
+            </div>
+            <span className="btn primary">
+              {t("lp.pricing.cta.title")}
+              <ArrowRight />
+            </span>
+          </div>
+        </Reveal>
       </section>
 
       <SiteFooter />

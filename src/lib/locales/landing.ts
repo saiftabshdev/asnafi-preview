@@ -48,6 +48,9 @@ export const landingLocales = {
       "Try every feature, then pick the plan that fits your business.",
     "lp.pricing.perMonth": "/ month",
     "lp.pricing.perYear": "/ year",
+    "lp.pricing.cta.title": "Upload your request now",
+    "lp.pricing.cta.tagline":
+      "Our team builds your digital menu and hands you the ready link within 24 hours.",
 
     "lp.footer.desc":
       "A professional digital menu that elevates your customers’ experience and strengthens your brand presence.",
@@ -209,6 +212,9 @@ export const landingLocales = {
     "lp.pricing.note": "جرّب جميع المزايا، ثم اختر الخطة المناسبة لعملك.",
     "lp.pricing.perMonth": "/ شهرياً",
     "lp.pricing.perYear": "/ سنوياً",
+    "lp.pricing.cta.title": "ارفع طلبك الآن",
+    "lp.pricing.cta.tagline":
+      "فريقنا يجهّز قائمتك الرقمية ويسلّمك الرابط جاهزاً خلال 24 ساعة.",
 
     "lp.footer.desc":
       "منيو إلكتروني احترافي يرتقي بتجربة عملائك ويعزز حضور علامتك التجارية.",
@@ -372,6 +378,9 @@ export const landingLocales = {
       "Tüm özellikleri deneyin, sonra işinize uygun planı seçin.",
     "lp.pricing.perMonth": "/ ay",
     "lp.pricing.perYear": "/ yıl",
+    "lp.pricing.cta.title": "Talebini şimdi yükle",
+    "lp.pricing.cta.tagline":
+      "Ekibimiz dijital menünüzü hazırlar ve 24 saat içinde hazır bağlantıyı size teslim eder.",
 
     "lp.footer.desc":
       "Müşteri deneyimini geliştiren ve markanızın gücünü artıran profesyonel dijital menü.",
