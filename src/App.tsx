@@ -49,7 +49,7 @@ function FloatingWhatsApp() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <FloatingWhatsApp />
       <Routes>
         <Route path="/" element={<LandingPage />} />
